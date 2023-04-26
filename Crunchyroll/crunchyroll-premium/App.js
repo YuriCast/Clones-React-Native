@@ -39,7 +39,7 @@ export default function Tela() {
         keyExtractor={(item) => item}
       />
       <TouchableOpacity style={styles.button}>
-        <AntDesign name="crown" size={20} color="#222" />
+        <AntDesign color="#222" />
         <Text style={styles.buttonText}>ASSINAR COM TESTE GRATUITO</Text>
       </TouchableOpacity>
     </View>
